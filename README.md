@@ -21,7 +21,7 @@ Record only the change in the DMX values.
 Playback sends the data as is with the timing stored in the json file.
 When merge-mode is LTP or HTP the server listens to all ArtDMX packets sent through the network
 and tries to have a actual DMX data image to add the stored values.
-The interval or the stepping to send the data ist set by the configuartion.
+The interval or the stepping to send the data is set by the configuartion.
 
 ## Changelog
 
