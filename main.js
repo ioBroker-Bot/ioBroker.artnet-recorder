@@ -11,13 +11,13 @@
 
 const utils = require('@iobroker/adapter-core');
 
-const fs = require('fs');
-const udp = require('dgram');
+const fs = require('node:fs');
+const udp = require('node:dgram');
 const lineByLine = require('n-readlines');
 
-//const { TIMEOUT } = require('dns');
-//const { setTimeout } = require('timers');
-//const path = require('path');
+//const { TIMEOUT } = require('node:dns');
+//const { setTimeout } = require('node:timers');
+//const path = require('node:path');
 
 class ArtnetRecorder extends utils.Adapter {
     /**
